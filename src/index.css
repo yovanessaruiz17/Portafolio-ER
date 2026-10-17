@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-purple-deep: #4B197A;
+  --color-purple-primary: #6D32A5;
+  --color-purple-hover: #5a278c;
+  --color-purple-light: #8e47db;
+  --color-purple-lavender: #F0E7FC;
+  --color-purple-subtle: #f8f4fe;
+  --color-purple-border: #E2D2F9;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Space Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    color: #1e293b;
+    background-color: #faf8fd;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Accessible visible focus outlines */
+  :focus-visible {
+    outline: 2px solid #6D32A5;
+    outline-offset: 2px;
+  }
+
+  /* Ensure inputs and buttons prevent iOS auto-zoom */
+  input, select, textarea {
+    font-size: 16px;
+  }
+  @media (min-width: 640px) {
+    input, select, textarea {
+      font-size: 0.875rem; /* 14px on tablets/desktops */
+    }
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
