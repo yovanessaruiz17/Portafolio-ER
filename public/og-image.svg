@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D0B4E" />
+      <stop offset="45%" stop-color="#4B197A" />
+      <stop offset="100%" stop-color="#1F0736" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6D32A5" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#4B197A" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9047DE" />
+      <stop offset="100%" stop-color="#6D32A5" />
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9047DE" />
+      <stop offset="50%" stop-color="#6D32A5" />
+      <stop offset="100%" stop-color="#4B197A" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="85%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#9047DE" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#4B197A" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="15%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#6D32A5" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#2D0B4E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Ambient Lighting -->
+  <circle cx="1020" cy="130" r="380" fill="url(#glow1)" />
+  <circle cx="180" cy="540" r="340" fill="url(#glow2)" />
+
+  <!-- Subtle Grid Accent -->
+  <g stroke="#F0E7FC" stroke-opacity="0.04" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="630" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="320" y1="0" x2="320" y2="630" />
+    <line x1="440" y1="0" x2="440" y2="630" />
+    <line x1="560" y1="0" x2="560" y2="630" />
+    <line x1="680" y1="0" x2="680" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="920" y1="0" x2="920" y2="630" />
+    <line x1="1040" y1="0" x2="1040" y2="630" />
+    <line x1="0" y1="90" x2="1200" y2="90" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="330" x2="1200" y2="330" />
+    <line x1="0" y1="450" x2="1200" y2="450" />
+    <line x1="0" y1="570" x2="1200" y2="570" />
+  </g>
+
+  <!-- Top Accent Line -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#badgeGrad)" />
+
+  <!-- Trajectory Pill -->
+  <g transform="translate(80, 58)">
+    <rect width="430" height="36" rx="18" fill="#F0E7FC" fill-opacity="0.15" stroke="#9047DE" stroke-width="1.5" />
+    <circle cx="22" cy="18" r="6" fill="#10B981" />
+    <text x="36" y="23" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#F0E7FC" letter-spacing="0.5">
+      TRAYECTORIA EN SALUD Y SECTOR COMERCIAL
+    </text>
+  </g>
+
+  <!-- Main Professional Identity -->
+  <text x="80" y="162" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="#FFFFFF" letter-spacing="-1">
+    Eber Ruiz Zamora
+  </text>
+  <text x="80" y="210" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#E2C9FC">
+    Ingeniero de Sistemas · 20+ Años de Experiencia
+  </text>
+
+  <!-- Core Services Cards Grid -->
+  <g transform="translate(80, 240)">
+    <!-- Service Card 1: Excel & Power Query -->
+    <g transform="translate(0, 0)">
+      <rect width="330" height="96" rx="16" fill="url(#cardGrad)" stroke="#6D32A5" stroke-opacity="0.4" stroke-width="1" />
+      <text x="20" y="38" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">
+        Excel &amp; Power Query
+      </text>
+      <text x="20" y="66" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="400" fill="#E9D8FD">
+        Automatización y modelado de datos
+      </text>
+    </g>
+
+    <!-- Service Card 2: Power BI & SQL -->
+    <g transform="translate(350, 0)">
+      <rect width="330" height="96" rx="16" fill="url(#cardGrad)" stroke="#6D32A5" stroke-opacity="0.4" stroke-width="1" />
+      <text x="20" y="38" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">
+        Power BI &amp; SQL
+      </text>
+      <text x="20" y="66" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="400" fill="#E9D8FD">
+        Tableros dinámicos y analítica
+      </text>
+    </g>
+
+    <!-- Service Card 3: Inventarios Farmacias -->
+    <g transform="translate(0, 112)">
+      <rect width="330" height="96" rx="16" fill="url(#cardGrad)" stroke="#6D32A5" stroke-opacity="0.4" stroke-width="1" />
+      <text x="20" y="38" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">
+        Inventarios Farmacéuticos
+      </text>
+      <text x="20" y="66" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="400" fill="#E9D8FD">
+        Semaforización y control de lotes
+      </text>
+    </g>
+
+    <!-- Service Card 4: Soporte y Mantenimiento -->
+    <g transform="translate(350, 112)">
+      <rect width="330" height="96" rx="16" fill="url(#cardGrad)" stroke="#6D32A5" stroke-opacity="0.4" stroke-width="1" />
+      <text x="20" y="38" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">
+        Soporte &amp; Mantenimiento
+      </text>
+      <text x="20" y="66" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="400" fill="#E9D8FD">
+        Diagnóstico, optimización y redes
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Visual Monogram Card -->
+  <g transform="translate(830, 130)">
+    <!-- Outer Card Frame -->
+    <rect width="290" height="350" rx="28" fill="#1B072F" stroke="#9047DE" stroke-opacity="0.3" stroke-width="1.5" />
+
+    <!-- Avatar Inner -->
+    <g transform="translate(70, 40)">
+      <rect width="150" height="150" rx="32" fill="url(#avatarGrad)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="3" />
+      <text x="75" y="98" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="64" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+        ER
+      </text>
+    </g>
+
+    <!-- Badge Info in Card -->
+    <text x="145" y="235" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Eber Ruiz Zamora
+    </text>
+    <text x="145" y="262" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="600" fill="#D8B4FE" text-anchor="middle">
+      Consultor TI Independiente
+    </text>
+
+    <!-- Verification Pill -->
+    <g transform="translate(45, 285)">
+      <rect width="200" height="34" rx="17" fill="#6D32A5" fill-opacity="0.4" stroke="#9047DE" stroke-opacity="0.5" stroke-width="1" />
+      <text x="100" y="22" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#F0E7FC" text-anchor="middle">
+        Ética · Datos · Resultados
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Location & Contact Bar -->
+  <g transform="translate(80, 545)">
+    <!-- Location Pin Badge -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="22" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="15" font-weight="600" fill="#E9D8FD">
+        📍 Cartagena de Indias, Bolívar · Cobertura Presencial y Remota (Colombia)
+      </text>
+    </g>
+
+    <!-- Direct Contact Links -->
+    <g transform="translate(680, 0)">
+      <text x="0" y="22" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="15" font-weight="700" fill="#A7F3D0">
+        WhatsApp: +57 302 310 5047 · ruzae1@gmail.com
+      </text>
+    </g>
+  </g>
+</svg>

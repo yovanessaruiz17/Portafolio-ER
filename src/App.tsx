@@ -1,6 +1,7 @@
 /**
- * @license
- * SPDX-License-Identifier: Apache-2.0
+ * Portafolio Profesional — Eber Ruiz Zamora
+ * Arquitectura y desarrollo: Yordev — Yorleydis Ruiz
+ * @license Apache-2.0
  */
 
 import React, { useState, useEffect } from 'react';

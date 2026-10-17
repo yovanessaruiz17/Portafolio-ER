@@ -210,6 +210,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
             Sin intermediarios ni registros engañosos en servidores. Diligencia los datos para
             preparar tu mensaje y envíalo desde tu propio canal preferido.
           </p>
+          <div className="mt-3 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-100/80 text-[#4B197A] text-xs sm:text-sm font-semibold border border-purple-200">
+            <span>📍 Cartagena de Indias, Bolívar · Cobertura local presencial y remota a nivel nacional</span>
+          </div>
         </div>
 
         {/* Contact Information Cards (WhatsApp + 2 Emails) */}

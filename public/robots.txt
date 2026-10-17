@@ -1,0 +1,7 @@
+# Robots.txt for Eber Ruiz Zamora Professional Portfolio
+# Production URL: https://eberruizportafolio.netlify.app/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://eberruizportafolio.netlify.app/sitemap.xml

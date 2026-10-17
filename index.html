@@ -1,27 +1,218 @@
 <!doctype html>
-<html lang="es" class="scroll-smooth">
+<!-- Desarrollo y arquitectura web: Yordev — Yorleydis Ruiz -->
+<html lang="es-CO" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eber Ruiz Zamora | Sistemas, Excel, Power BI e Inventarios</title>
+    
+    <!-- Título descriptivo y canónico -->
+    <title>Eber Ruiz Zamora | Ingeniero de Sistemas, Excel, Power BI e Inventarios</title>
+    
+    <!-- Meta descripción orientada a clientes -->
     <meta
       name="description"
-      content="Eber Ruiz Zamora, Ingeniero de Sistemas con más de 20 años de experiencia en los sectores salud y comercial. Servicios de soporte informático, automatización con Excel, Power Query, Power BI, SQL y control especializado de inventarios en droguerías y farmacias."
+      content="Eber Ruiz Zamora, Ingeniero de Sistemas con más de 20 años de experiencia. Servicios de soporte informático, automatización en Excel, Power BI, SQL y control especializado de inventarios en droguerías y farmacias en Cartagena, Bolívar y toda Colombia."
     />
-    <meta property="og:title" content="Eber Ruiz Zamora | Sistemas, Excel, Power BI e Inventarios" />
+    
+    <!-- Autoría técnica interna -->
+    <meta name="author" content="Yordev — Yorleydis Ruiz" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    
+    <!-- URL Canónica -->
+    <link rel="canonical" href="https://eberruizportafolio.netlify.app/" />
+
+    <!-- Favicon e iconos oficiales -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Eber Ruiz Zamora | Portafolio Profesional" />
+    <meta property="og:title" content="Eber Ruiz Zamora | Ingeniero de Sistemas, Excel, Power BI e Inventarios" />
     <meta
       property="og:description"
-      content="Soluciones prácticas y confiables para tecnología, datos e inventarios. 20+ años de trayectoria profesional."
+      content="Soluciones prácticas y confiables en ingeniería de sistemas, automatización con Excel, tableros en Power BI, consultas SQL y control estricto de inventarios farmacéuticos. 20+ años de experiencia."
     />
-    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eberruizportafolio.netlify.app/" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:image" content="https://eberruizportafolio.netlify.app/og-image.png" />
+    <meta property="og:image:secure_url" content="https://eberruizportafolio.netlify.app/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Eber Ruiz Zamora - Ingeniero de Sistemas, Excel, Power BI y Control de Inventarios" />
+
+    <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Eber Ruiz Zamora | Ingeniero de Sistemas, Excel, Power BI e Inventarios" />
+    <meta
+      name="twitter:description"
+      content="Soluciones profesionales en tecnología, soporte de computadores, automatización con Excel, Power BI y gestión de inventarios farmacéuticos."
+    />
+    <meta name="twitter:image" content="https://eberruizportafolio.netlify.app/og-image.png" />
+    <meta name="twitter:image:alt" content="Eber Ruiz Zamora - Ingeniero de Sistemas" />
+
+    <!-- Geolocalización y SEO Local (Cartagena de Indias, Bolívar, Colombia) -->
+    <meta name="geo.region" content="CO-BOL" />
+    <meta name="geo.placename" content="Cartagena de Indias, Bolívar, Colombia" />
+    <meta name="geo.position" content="10.39972;-75.51444" />
+    <meta name="ICBM" content="10.39972, -75.51444" />
+
+    <!-- Configuración corporativa y seguridad -->
     <meta name="theme-color" content="#4B197A" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- Tipografías web -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Datos estructurados Schema.org (JSON-LD) para SEO profesional y local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://eberruizportafolio.netlify.app/#person",
+          "name": "Eber Ruiz Zamora",
+          "jobTitle": "Ingeniero de Sistemas",
+          "description": "Ingeniero de Sistemas con más de 20 años de experiencia en los sectores salud y comercial. Especialista en Excel avanzado, Power Query, Power BI, SQL, mantenimiento de computadores y control especializado de inventarios farmacéuticos.",
+          "url": "https://eberruizportafolio.netlify.app/",
+          "image": "https://eberruizportafolio.netlify.app/og-image.png",
+          "email": "ruzae1@gmail.com",
+          "telephone": "+573023105047",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Cartagena de Indias",
+            "addressRegion": "Bolívar",
+            "addressCountry": "CO",
+            "postalCode": "130001"
+          },
+          "knowsAbout": [
+            "Ingeniería de Sistemas",
+            "Microsoft Excel Avanzado",
+            "Microsoft Power Query",
+            "Microsoft Power BI",
+            "Bases de Datos SQL",
+            "Control y Auditoría de Inventarios Farmacéuticos",
+            "Semaforización y Trazabilidad de Medicamentos",
+            "Mantenimiento Preventivo y Correctivo de Computadores",
+            "Análisis Estadístico y Modelos Empresariales"
+          ],
+          "sameAs": [
+            "https://wa.me/573023105047"
+          ]
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://eberruizportafolio.netlify.app/#service",
+          "name": "Eber Ruiz Zamora — Servicios de TI, Analítica y Control de Inventarios",
+          "url": "https://eberruizportafolio.netlify.app/",
+          "logo": "https://eberruizportafolio.netlify.app/favicon.svg",
+          "image": "https://eberruizportafolio.netlify.app/og-image.png",
+          "telephone": "+573023105047",
+          "email": "ruzae1@gmail.com",
+          "priceRange": "$$",
+          "founder": {
+            "@id": "https://eberruizportafolio.netlify.app/#person"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Cartagena de Indias",
+            "addressRegion": "Bolívar",
+            "addressCountry": "CO",
+            "postalCode": "130001"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.39972,
+            "longitude": -75.51444
+          },
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Cartagena de Indias"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Bolívar"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Costa Caribe"
+            },
+            {
+              "@type": "Country",
+              "name": "Colombia"
+            }
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Catálogo de Servicios Profesionales",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Mantenimiento y Soporte de Computadores",
+                  "description": "Diagnóstico, reparación, optimización de velocidad, seguridad, copias de respaldo y mantenimiento preventivo para computadores y redes."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Automatización con Excel Avanzado y Power Query",
+                  "description": "Desarrollo de plantillas automatizadas, fórmulas avanzadas, limpieza y extracción masiva de datos mediante Power Query."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Tableros en Power BI y Consultas SQL",
+                  "description": "Diseño de cuadros de mando dinámicos e interactivos en Power BI conectados a bases de datos relacionales SQL."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Control de Inventarios para Droguerías y Farmacias",
+                  "description": "Sistemas de existencias, semaforización de vencimientos, trazabilidad por código y lote, y manuales operativos."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Estudios Empresariales y Análisis Operativo",
+                  "description": "Análisis estadístico de operaciones, informes ejecutivos para gerencia y detección de áreas críticas de mejora."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://eberruizportafolio.netlify.app/#website",
+          "url": "https://eberruizportafolio.netlify.app/",
+          "name": "Eber Ruiz Zamora | Ingeniero de Sistemas, Excel, Power BI e Inventarios",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://eberruizportafolio.netlify.app/#person"
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="bg-slate-50 text-slate-800 antialiased selection:bg-[#6D32A5] selection:text-white">
     <div id="root"></div>

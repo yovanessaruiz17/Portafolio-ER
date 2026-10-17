@@ -1,0 +1,33 @@
+# Netlify Configuration for Eber Ruiz Zamora Professional Portfolio
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# SPA Fallback rule for client-side routing and legal document routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Production Security Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Protection against clickjacking (fallback for older user agents)
+    X-Frame-Options = "DENY"
+
+    # Protection against MIME-type sniffing
+    X-Content-Type-Options = "nosniff"
+
+    # Referrer policy for external links and navigations
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # Permissions Policy restricting unused browser capabilities
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+
+    # HTTP Strict Transport Security (preserving approved status without extending subdomains/preload)
+    Strict-Transport-Security = "max-age=31536000"
+
+    # Content Security Policy: strictly mapped to legitimate application assets
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://eberruizportafolio.netlify.app; connect-src 'self'; frame-ancestors 'none'; form-action 'self' https://wa.me mailto:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests;"

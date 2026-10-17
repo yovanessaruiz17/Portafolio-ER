@@ -115,7 +115,7 @@ export const Hero: React.FC = () => {
                     {PERSONAL_INFO.profession}
                   </p>
                   <p className="text-[11px] sm:text-xs text-slate-500 mt-0.5">
-                    Soporte · Datos · Inventarios
+                    Cartagena, Bolívar · Soporte · Datos · Inventarios
                   </p>
                 </div>
               </div>
